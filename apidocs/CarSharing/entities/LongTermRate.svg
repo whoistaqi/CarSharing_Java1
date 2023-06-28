@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="279px" preserveAspectRatio="none" style="width:204px;height:279px;" version="1.1" viewBox="0 0 204 279" width="204px" zoomAndPan="magnify"><defs><filter height="300%" id="f134xbahjs1gjo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f8aae7b0e31d74ab7979cbbd51aff0a3]
+class CarSharing.entities.LongTermRate--><a href="LongTermRate.html" target="_top" title="LongTermRate.html" xlink:actuate="onRequest" xlink:href="LongTermRate.html" xlink:show="new" xlink:title="LongTermRate.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#f134xbahjs1gjo)" height="117.9609" id="CarSharing.entities.LongTermRate" style="stroke: #A80036; stroke-width: 1.5;" width="152" x="23" y="126"/><ellipse cx="46.1" cy="144.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M49.0688,150.6094 Q48.4906,150.9063 47.85,151.0469 Q47.2094,151.2031 46.5063,151.2031 Q44.0063,151.2031 42.6781,149.5625 Q41.3656,147.9063 41.3656,144.7813 Q41.3656,141.6563 42.6781,140 Q44.0063,138.3438 46.5063,138.3438 Q47.2094,138.3438 47.85,138.5 Q48.5063,138.6563 49.0688,138.9531 L49.0688,141.6719 Q48.4438,141.0938 47.85,140.8281 Q47.2563,140.5469 46.6313,140.5469 Q45.2875,140.5469 44.6,141.625 Q43.9125,142.6875 43.9125,144.7813 Q43.9125,146.875 44.6,147.9531 Q45.2875,149.0156 46.6313,149.0156 Q47.2563,149.0156 47.85,148.75 Q48.4438,148.4688 49.0688,147.8906 L49.0688,150.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="61.9" y="143.9951">LongTermRate</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="93" x="66.4" y="156.5791">CarSharing.entities</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="24" x2="174" y1="163.9375" y2="163.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="31" y="171.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="43" y="178.1479">baseDuration: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="31" y="184.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="43" y="190.9526">baseAmount: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="31" y="197.5469"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="62" x="43" y="203.7573">perDay: int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="24" x2="174" y1="210.3516" y2="210.3516"/><ellipse cx="34" cy="221.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="43" y="224.562">LongTermRate(int, int)</text><ellipse cx="34" cy="234.1563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="43" y="237.3667">total(Trip): int</text></a><!--MD5=[3b2bbaccdfbf4a6794bf0919d91eb6ff]
+class CarSharing.entities.Rate--><a href="Rate.html" target="_top" title="Rate.html" xlink:actuate="onRequest" xlink:href="Rate.html" xlink:show="new" xlink:title="Rate.html" xlink:type="simple"><rect codeLine="13" fill="#FEFECE" filter="url(#f134xbahjs1gjo)" height="58.7422" id="CarSharing.entities.Rate" style="stroke: #A80036; stroke-width: 1.5;" width="126" x="36" y="7"/><ellipse cx="51" cy="25.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M51.1094,21.3125 L49.9531,26.3906 L52.2813,26.3906 L51.1094,21.3125 Z M49.625,19.0781 L52.6094,19.0781 L55.9688,31.4688 L53.5156,31.4688 L52.75,28.4063 L49.4688,28.4063 L48.7188,31.4688 L46.2813,31.4688 L49.625,19.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="96" y="24.9951">Rate</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="94" x="65" y="37.5791">CarSharing.entities</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="37" x2="161" y1="44.9375" y2="44.9375"/><ellipse cx="47" cy="55.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="56" y="59.1479">total(Trip): int</text></a><!--MD5=[22493bbf1ba0d29a5cd1f3f78a1e2b0e]
+reverse link CarSharing.entities.Rate to CarSharing.entities.LongTermRate--><path codeLine="17" d="M99,86.1 C99,98.8 99,112.63 99,125.77 " fill="none" id="CarSharing.entities.Rate-backto-CarSharing.entities.LongTermRate" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="92,86.09,99,66.09,106,86.09,92,86.09" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="0" y="266.2432">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[39b669a6cab27c2c1403d16c45f51bdd]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>LongTermRate\n<size:10>CarSharing.entities" as CarSharing.entities.LongTermRate [[LongTermRate.html]] {
+        -baseDuration: int
+        -baseAmount: int
+        -perDay: int
+        +LongTermRate(int, int)
+        +total(Trip): int
+    }
+
+    abstract class "<size:14>Rate\n<size:10>CarSharing.entities" as CarSharing.entities.Rate [[Rate.html]] {
+        {abstract} +total(Trip): int
+    }
+
+    CarSharing.entities.Rate <|- - CarSharing.entities.LongTermRate
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,61 @@
+@startuml
+    namespace CarSharing.entities {
+
+        class Trip [[Trip.html]] {
+            -car: Car
+            -renter: Customer
+            -startLocation: Location
+            -endLocation: Location
+            -startTime: DateTime
+            -endTime: DateTime
+            -status: TripStatus
+            -distance: double
+            +Trip(Car, Customer, Rate)
+            +Trip(Car, Customer, Rate, Location, DateTime)
+            +Trip(Car, Customer, Rate, Location, DateTime, Location, DateTime, double)
+            +Trip(Trip)
+            +start(Location, DateTime): Trip
+            +end(Location, DateTime, double): Trip
+            +total(): int
+            +compareTo(Trip): int
+            +getStartLocation(): Location
+            +getEndLocation(): Location
+            +getStartTime(): DateTime
+            +getEndTime(): DateTime
+            +getDistance(): double
+            +getStatus(): TripStatus
+            +duration(): int
+        }
+
+        class PerMinuteRate [[PerMinuteRate.html]] {
+            -perMinute: int
+            +PerMinuteRate(int)
+            +total(Trip): int
+        }
+
+        abstract class Rate [[Rate.html]] {
+            {abstract} +total(Trip): int
+        }
+
+        class LongTermRate [[LongTermRate.html]] {
+            -baseDuration: int
+            -baseAmount: int
+            -perDay: int
+            +LongTermRate(int, int)
+            +total(Trip): int
+        }
+
+        java.lang.Comparable <|.. Trip
+        Trip --> Rate: rate
+        Rate <|-- PerMinuteRate
+        Rate <|-- LongTermRate
+    }
+
+    namespace java.lang {
+        interface Comparable<T> {
+            {abstract} +compareTo(T): int
+        }
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

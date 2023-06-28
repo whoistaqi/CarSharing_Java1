@@ -1,0 +1,19 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Main\n<size:10>CarSharing.app" as CarSharing.app.Main [[Main.html]] {
+        {static} -cars: List<Car>
+        {static} -customers: List<Customer>
+        {static} -rates: List<Rate>
+        {static} -trips: List<Trip>
+        {static} +main(String[]): void
+        {static} -export(List<Trip>, String): int
+        {static} -filter(List<Trip>, Matcher<Trip>): List<Trip>
+        {static} -tabularPrint(List<Trip>, Formatter<Trip>): void
+        {static} -tabularPrint(List<Trip>): void
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

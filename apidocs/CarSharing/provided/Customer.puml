@@ -1,0 +1,13 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Customer\n<size:10>CarSharing.provided" as CarSharing.provided.Customer [[Customer.html]] {
+        -name: String
+        +Customer(String)
+        +Customer(Customer)
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

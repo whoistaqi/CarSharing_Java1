@@ -1,0 +1,16 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Location\n<size:10>CarSharing.provided" as CarSharing.provided.Location [[Location.html]] {
+        -n: double
+        -e: double
+        -description: String
+        +Location(double, double)
+        +Location(double, double, String)
+        +Location(Location)
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

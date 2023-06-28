@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="223px" preserveAspectRatio="none" style="width:204px;height:223px;" version="1.1" viewBox="0 0 204 223" width="204px" zoomAndPan="magnify"><defs><filter height="300%" id="fxm0expaz3fm5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3c662231aa8500e7acba0bca9cd47888]
+class CarSharing.provided.DurationComparator--><a href="DurationComparator.html" target="_top" title="DurationComparator.html" xlink:actuate="onRequest" xlink:href="DurationComparator.html" xlink:show="new" xlink:title="DurationComparator.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#fxm0expaz3fm5)" height="58.7422" id="CarSharing.provided.DurationComparator" style="stroke: #A80036; stroke-width: 1.5;" width="172" x="13" y="129"/><ellipse cx="28" cy="147.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M30.9688,153.6094 Q30.3906,153.9063 29.75,154.0469 Q29.1094,154.2031 28.4063,154.2031 Q25.9063,154.2031 24.5781,152.5625 Q23.2656,150.9063 23.2656,147.7813 Q23.2656,144.6563 24.5781,143 Q25.9063,141.3438 28.4063,141.3438 Q29.1094,141.3438 29.75,141.5 Q30.4063,141.6563 30.9688,141.9531 L30.9688,144.6719 Q30.3438,144.0938 29.75,143.8281 Q29.1563,143.5469 28.5313,143.5469 Q27.1875,143.5469 26.5,144.625 Q25.8125,145.6875 25.8125,147.7813 Q25.8125,149.875 26.5,150.9531 Q27.1875,152.0156 28.5313,152.0156 Q29.1563,152.0156 29.75,151.75 Q30.3438,151.4688 30.9688,150.8906 L30.9688,153.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="42" y="146.9951">DurationComparator</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="100" x="62" y="159.5791">CarSharing.provided</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="14" x2="184" y1="166.9375" y2="166.9375"/><ellipse cx="24" cy="177.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="132" x="33" y="181.1479">compare(Trip, Trip): int</text></a><!--MD5=[ab8fa349a1e2e86ca8104897b03d4899]
+class java.util.Comparator--><rect codeLine="9" fill="#FEFECE" filter="url(#fxm0expaz3fm5)" height="58.7422" id="java.util.Comparator" style="stroke: #A80036; stroke-width: 1.5;" width="158" x="20" y="10"/><ellipse cx="43.1" cy="28.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M39.0219,24.7344 L39.0219,22.5781 L46.4125,22.5781 L46.4125,24.7344 L43.9438,24.7344 L43.9438,32.8125 L46.4125,32.8125 L46.4125,34.9688 L39.0219,34.9688 L39.0219,32.8125 L41.4906,32.8125 L41.4906,24.7344 L39.0219,24.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="58.9" y="27.9951">Comparator</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="79.4" y="40.5791">java.util</text><rect fill="#FFFFFF" height="15.9688" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="25" x="156" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="23" x="157" y="19.1387">Trip</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="21" x2="177" y1="47.9375" y2="47.9375"/><ellipse cx="31" cy="58.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="132" x="40" y="62.1479">compare(Trip, Trip): int</text><!--MD5=[948b3d5bb992c2072fb311de6e90f272]
+reverse link java.util.Comparator to CarSharing.provided.DurationComparator--><path codeLine="13" d="M99,89.25 C99,102.7 99,116.86 99,128.77 " fill="none" id="java.util.Comparator-backto-CarSharing.provided.DurationComparator" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="92,89.12,99,69.12,106,89.12,92,89.12" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="0" y="210.0244">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[a7423ec2766eb191130d1f1fb771993d]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>DurationComparator\n<size:10>CarSharing.provided" as CarSharing.provided.DurationComparator [[DurationComparator.html]] {
+        +compare(Trip, Trip): int
+    }
+
+    interface "<size:14>Comparator\n<size:10>java.util" as java.util.Comparator<Trip> {
+        {abstract} +compare(Trip, Trip): int
+    }
+
+    java.util.Comparator <|.. CarSharing.provided.DurationComparator
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

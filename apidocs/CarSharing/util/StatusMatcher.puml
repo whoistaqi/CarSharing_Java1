@@ -1,0 +1,19 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>StatusMatcher\n<size:10>CarSharing.util" as CarSharing.util.StatusMatcher [[StatusMatcher.html]] {
+        -status: TripStatus
+        +StatusMatcher(TripStatus)
+        +matches(Trip): boolean
+    }
+
+    abstract class "<size:14>Matcher\n<size:10>CarSharing.provided" as CarSharing.provided.Matcher<Trip> [[../provided/Matcher.html]] {
+        {abstract} +matches(Trip): boolean
+    }
+
+    CarSharing.provided.Matcher <|-- CarSharing.util.StatusMatcher
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

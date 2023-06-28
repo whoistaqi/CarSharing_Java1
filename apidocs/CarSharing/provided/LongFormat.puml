@@ -1,0 +1,17 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>LongFormat\n<size:10>CarSharing.provided" as CarSharing.provided.LongFormat [[LongFormat.html]] {
+        +format(Trip): String
+    }
+
+    abstract class "<size:14>Formatter\n<size:10>CarSharing.provided" as CarSharing.provided.Formatter<Trip> [[Formatter.html]] {
+        {abstract} +format(Trip): String
+    }
+
+    CarSharing.provided.Formatter <|-- CarSharing.provided.LongFormat
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

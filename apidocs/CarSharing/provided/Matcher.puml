@@ -1,0 +1,13 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    abstract class "<size:14>Matcher\n<size:10>CarSharing.provided" as CarSharing.provided.Matcher<T> [[Matcher.html]] {
+        +Matcher(String)
+        +Matcher()
+        {abstract} +matches(T): boolean
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

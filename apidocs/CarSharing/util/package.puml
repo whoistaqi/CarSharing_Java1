@@ -1,0 +1,60 @@
+@startuml
+    namespace CarSharing.util {
+
+        class StatusComparator [[StatusComparator.html]] {
+            +compare(Trip, Trip): int
+        }
+
+        class StatusMatcher [[StatusMatcher.html]] {
+            -status: TripStatus
+            +StatusMatcher(TripStatus)
+            +matches(Trip): boolean
+        }
+
+        class QuickFormat [[QuickFormat.html]] {
+            +format(Trip): String
+        }
+
+        class AmountCopmarator [[AmountCopmarator.html]] {
+            +compare(Trip, Trip): int
+        }
+
+        java.util.Comparator <|.. StatusComparator
+        CarSharing.provided.Matcher <|-- StatusMatcher
+        CarSharing.provided.Formatter <|-- QuickFormat
+        java.util.Comparator <|.. AmountCopmarator
+    }
+
+    namespace java.util {
+        interface Comparator<T> {
+            {abstract} +compare(T, T): int
+            +reversed(): Comparator<T>
+            +thenComparing(Comparator<? super T>): Comparator<T>
+            +thenComparing(Function<? super T, ? extends U>, Comparator<? super U>): Comparator<T>
+            +thenComparing(Function<? super T, ? extends Comparable<? super U>>): Comparator<T>
+            +thenComparingInt(ToIntFunction<? super T>): Comparator<T>
+            +thenComparingLong(ToLongFunction<? super T>): Comparator<T>
+            +thenComparingDouble(ToDoubleFunction<? super T>): Comparator<T>
+            {static} +reverseOrder(): Comparator<T extends Comparable<? super T>>
+            {static} +naturalOrder(): Comparator<T extends Comparable<? super T>>
+            {static} +nullsFirst(Comparator<? super T>): Comparator<T>
+            {static} +nullsLast(Comparator<? super T>): Comparator<T>
+            {static} +comparing(Function<? super T, ? extends U>, Comparator<? super U>): Comparator<T>
+            {static} +comparing(Function<? super T, ? extends Comparable<? super U>>): Comparator<T>
+            {static} +comparingInt(ToIntFunction<? super T>): Comparator<T>
+            {static} +comparingLong(ToLongFunction<? super T>): Comparator<T>
+            {static} +comparingDouble(ToDoubleFunction<? super T>): Comparator<T>
+        }
+    }
+
+    namespace CarSharing.provided {
+        abstract class Matcher<T> [[../provided/Matcher.html]] {
+            {abstract} +matches(T): boolean
+        }
+        abstract class Formatter<T> [[../provided/Formatter.html]] {
+            {abstract} +format(T): String
+        }
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

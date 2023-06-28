@@ -1,0 +1,11 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    abstract class "<size:14>Rate\n<size:10>CarSharing.entities" as CarSharing.entities.Rate [[Rate.html]] {
+        {abstract} +total(Trip): int
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

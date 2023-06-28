@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="223px" preserveAspectRatio="none" style="width:204px;height:223px;" version="1.1" viewBox="0 0 204 223" width="204px" zoomAndPan="magnify"><defs><filter height="300%" id="fvoxsua5klo4a" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[23a90bc99b7e9f7628715897abbd0174]
+class CarSharing.provided.LongFormat--><a href="LongFormat.html" target="_top" title="LongFormat.html" xlink:actuate="onRequest" xlink:href="LongFormat.html" xlink:show="new" xlink:title="LongFormat.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#fvoxsua5klo4a)" height="58.7422" id="CarSharing.provided.LongFormat" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="31" y="129"/><ellipse cx="47.8" cy="147.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M50.7688,153.6094 Q50.1906,153.9063 49.55,154.0469 Q48.9094,154.2031 48.2063,154.2031 Q45.7063,154.2031 44.3781,152.5625 Q43.0656,150.9063 43.0656,147.7813 Q43.0656,144.6563 44.3781,143 Q45.7063,141.3438 48.2063,141.3438 Q48.9094,141.3438 49.55,141.5 Q50.2063,141.6563 50.7688,141.9531 L50.7688,144.6719 Q50.1438,144.0938 49.55,143.8281 Q48.9563,143.5469 48.3313,143.5469 Q46.9875,143.5469 46.3,144.625 Q45.6125,145.6875 45.6125,147.7813 Q45.6125,149.875 46.3,150.9531 Q46.9875,152.0156 48.3313,152.0156 Q48.9563,152.0156 49.55,151.75 Q50.1438,151.4688 50.7688,150.8906 L50.7688,153.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="71.2" y="146.9951">LongFormat</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="100" x="62.2" y="159.5791">CarSharing.provided</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="32" x2="166" y1="166.9375" y2="166.9375"/><ellipse cx="42" cy="177.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="51" y="181.1479">format(Trip): String</text></a><!--MD5=[b18d373ac55e83749332e48a3e085f57]
+class CarSharing.provided.Formatter--><a href="Formatter.html" target="_top" title="Formatter.html" xlink:actuate="onRequest" xlink:href="Formatter.html" xlink:show="new" xlink:title="Formatter.html" xlink:type="simple"><rect codeLine="9" fill="#FEFECE" filter="url(#fvoxsua5klo4a)" height="58.7422" id="CarSharing.provided.Formatter" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="19.5" y="10"/><ellipse cx="34.5" cy="28.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M34.6094,24.3125 L33.4531,29.3906 L35.7813,29.3906 L34.6094,24.3125 Z M33.125,22.0781 L36.1094,22.0781 L39.4688,34.4688 L37.0156,34.4688 L36.25,31.4063 L32.9688,31.4063 L32.2188,34.4688 L29.7813,34.4688 L33.125,22.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="65" y="27.9951">Formatter</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="100" x="48.5" y="40.5791">CarSharing.provided</text><rect fill="#FFFFFF" height="15.9688" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="25" x="156.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="23" x="157.5" y="19.1387">Trip</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="20.5" x2="177.5" y1="47.9375" y2="47.9375"/><ellipse cx="30.5" cy="58.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="109" x="39.5" y="62.1479">format(Trip): String</text></a><!--MD5=[1e68d53f40026c354f2455cb132732e9]
+reverse link CarSharing.provided.Formatter to CarSharing.provided.LongFormat--><path codeLine="13" d="M99,89.25 C99,102.7 99,116.86 99,128.77 " fill="none" id="CarSharing.provided.Formatter-backto-CarSharing.provided.LongFormat" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="92,89.12,99,69.12,106,89.12,92,89.12" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="0" y="210.0244">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[f45c54816db192e6173181f998987869]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>LongFormat\n<size:10>CarSharing.provided" as CarSharing.provided.LongFormat [[LongFormat.html]] {
+        +format(Trip): String
+    }
+
+    abstract class "<size:14>Formatter\n<size:10>CarSharing.provided" as CarSharing.provided.Formatter<Trip> [[Formatter.html]] {
+        {abstract} +format(Trip): String
+    }
+
+    CarSharing.provided.Formatter <|- - CarSharing.provided.LongFormat
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

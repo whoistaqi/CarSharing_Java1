@@ -1,0 +1,27 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>DateTime\n<size:10>CarSharing.provided" as CarSharing.provided.DateTime [[DateTime.html]] {
+        ~day: int
+        ~month: int
+        ~year: int
+        ~hr: int
+        ~min: int
+        +DateTime(int, int, int, int, int)
+        +DateTime(DateTime)
+        +compareTo(DateTime): int
+        +ts(): long
+        -uts(): long
+        +diff(DateTime): long
+    }
+
+    interface "<size:14>Comparable\n<size:10>java.lang" as java.lang.Comparable<DateTime> {
+        {abstract} +compareTo(DateTime): int
+    }
+
+    java.lang.Comparable <|.. CarSharing.provided.DateTime
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+    set namespaceSeparator none
+    hide circle
+    hide empty fields
+    hide empty methods
+
+    CarSharing.app --> CarSharing.provided
+    CarSharing.entities --> CarSharing.provided
+    CarSharing.provided --> CarSharing.entities
+    CarSharing.util --> CarSharing.entities
+    CarSharing.util --> CarSharing.provided
+
+    ' Package links
+    class "CarSharing.app" [[CarSharing/app/package-summary.html]] {
+    }
+    class "CarSharing.provided" [[CarSharing/provided/package-summary.html]] {
+    }
+    class "CarSharing.entities" [[CarSharing/entities/package-summary.html]] {
+    }
+    class "CarSharing.util" [[CarSharing/util/package-summary.html]] {
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

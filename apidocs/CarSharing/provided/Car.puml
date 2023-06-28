@@ -1,0 +1,19 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Car\n<size:10>CarSharing.provided" as CarSharing.provided.Car [[Car.html]] {
+        -make: String
+        -model: String
+        -registration: String
+        +Car()
+        +Car(Car)
+        +Car(String, String, String)
+        +setMake(String): void
+        +setModel(String): void
+        +setRegistration(String): void
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

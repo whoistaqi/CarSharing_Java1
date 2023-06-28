@@ -1,0 +1,41 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Trip\n<size:10>CarSharing.entities" as CarSharing.entities.Trip [[Trip.html]] {
+        -car: Car
+        -renter: Customer
+        -rate: Rate
+        -startLocation: Location
+        -endLocation: Location
+        -startTime: DateTime
+        -endTime: DateTime
+        -status: TripStatus
+        -distance: double
+        +Trip(Car, Customer, Rate)
+        +Trip(Car, Customer, Rate, Location, DateTime)
+        +Trip(Car, Customer, Rate, Location, DateTime, Location, DateTime, double)
+        +Trip(Trip)
+        +start(Location, DateTime): Trip
+        +end(Location, DateTime, double): Trip
+        +total(): int
+        +compareTo(Trip): int
+        +getStartLocation(): Location
+        +getEndLocation(): Location
+        +getStartTime(): DateTime
+        +getEndTime(): DateTime
+        +getDistance(): double
+        +getStatus(): TripStatus
+        +getRate(): Rate
+        +duration(): int
+    }
+
+    interface "<size:14>Comparable\n<size:10>java.lang" as java.lang.Comparable<Trip> {
+        {abstract} +compareTo(Trip): int
+    }
+
+    java.lang.Comparable <|.. CarSharing.entities.Trip
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

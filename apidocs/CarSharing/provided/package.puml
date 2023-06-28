@@ -1,0 +1,103 @@
+@startuml
+    namespace CarSharing.provided {
+
+        class Car [[Car.html]] {
+            -make: String
+            -model: String
+            -registration: String
+            +Car()
+            +Car(Car)
+            +Car(String, String, String)
+            +setMake(String): void
+            +setModel(String): void
+            +setRegistration(String): void
+        }
+
+        class DateTime [[DateTime.html]] {
+            ~day: int
+            ~month: int
+            ~year: int
+            ~hr: int
+            ~min: int
+            +DateTime(int, int, int, int, int)
+            +DateTime(DateTime)
+            +compareTo(DateTime): int
+            +ts(): long
+            -uts(): long
+            +diff(DateTime): long
+        }
+
+        enum TripStatus [[TripStatus.html]] {
+            {static} +CREATED
+            {static} +STARTED
+            {static} +COMPLETED
+        }
+
+        class DurationComparator [[DurationComparator.html]] {
+            +compare(Trip, Trip): int
+        }
+
+        class Location [[Location.html]] {
+            -n: double
+            -e: double
+            -description: String
+            +Location(double, double)
+            +Location(double, double, String)
+            +Location(Location)
+        }
+
+        class Customer [[Customer.html]] {
+            -name: String
+            +Customer(String)
+            +Customer(Customer)
+        }
+
+        abstract class Formatter<T> [[Formatter.html]] {
+            {abstract} +format(T): String
+        }
+
+        class LongFormat [[LongFormat.html]] {
+            +format(Trip): String
+        }
+
+        abstract class Matcher<T> [[Matcher.html]] {
+            +Matcher(String)
+            +Matcher()
+            {abstract} +matches(T): boolean
+        }
+
+        java.lang.Comparable <|.. DateTime
+        java.util.Comparator <|.. DurationComparator
+        Formatter <|-- LongFormat
+    }
+
+    namespace java.lang {
+        interface Comparable<T> {
+            {abstract} +compareTo(T): int
+        }
+    }
+
+    namespace java.util {
+        interface Comparator<T> {
+            {abstract} +compare(T, T): int
+            +reversed(): Comparator<T>
+            +thenComparing(Comparator<? super T>): Comparator<T>
+            +thenComparing(Function<? super T, ? extends U>, Comparator<? super U>): Comparator<T>
+            +thenComparing(Function<? super T, ? extends Comparable<? super U>>): Comparator<T>
+            +thenComparingInt(ToIntFunction<? super T>): Comparator<T>
+            +thenComparingLong(ToLongFunction<? super T>): Comparator<T>
+            +thenComparingDouble(ToDoubleFunction<? super T>): Comparator<T>
+            {static} +reverseOrder(): Comparator<T extends Comparable<? super T>>
+            {static} +naturalOrder(): Comparator<T extends Comparable<? super T>>
+            {static} +nullsFirst(Comparator<? super T>): Comparator<T>
+            {static} +nullsLast(Comparator<? super T>): Comparator<T>
+            {static} +comparing(Function<? super T, ? extends U>, Comparator<? super U>): Comparator<T>
+            {static} +comparing(Function<? super T, ? extends Comparable<? super U>>): Comparator<T>
+            {static} +comparingInt(ToIntFunction<? super T>): Comparator<T>
+            {static} +comparingLong(ToLongFunction<? super T>): Comparator<T>
+            {static} +comparingDouble(ToDoubleFunction<? super T>): Comparator<T>
+        }
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

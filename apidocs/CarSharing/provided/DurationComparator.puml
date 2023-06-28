@@ -1,0 +1,17 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>DurationComparator\n<size:10>CarSharing.provided" as CarSharing.provided.DurationComparator [[DurationComparator.html]] {
+        +compare(Trip, Trip): int
+    }
+
+    interface "<size:14>Comparator\n<size:10>java.util" as java.util.Comparator<Trip> {
+        {abstract} +compare(Trip, Trip): int
+    }
+
+    java.util.Comparator <|.. CarSharing.provided.DurationComparator
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

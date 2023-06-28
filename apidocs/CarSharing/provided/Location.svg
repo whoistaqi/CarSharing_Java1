@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="167px" preserveAspectRatio="none" style="width:233px;height:167px;" version="1.1" viewBox="0 0 233 167" width="233px" zoomAndPan="magnify"><defs><filter height="300%" id="f2ox35ikuap3y" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a6f9d838cf31a40675334183e1d33a6e]
+class CarSharing.provided.Location--><a href="Location.html" target="_top" title="Location.html" xlink:actuate="onRequest" xlink:href="Location.html" xlink:show="new" xlink:title="Location.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#f2ox35ikuap3y)" height="130.7656" id="CarSharing.provided.Location" style="stroke: #A80036; stroke-width: 1.5;" width="207" x="7" y="7"/><ellipse cx="56.25" cy="25.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M59.2188,31.6094 Q58.6406,31.9063 58,32.0469 Q57.3594,32.2031 56.6563,32.2031 Q54.1563,32.2031 52.8281,30.5625 Q51.5156,28.9063 51.5156,25.7813 Q51.5156,22.6563 52.8281,21 Q54.1563,19.3438 56.6563,19.3438 Q57.3594,19.3438 58,19.5 Q58.6563,19.6563 59.2188,19.9531 L59.2188,22.6719 Q58.5938,22.0938 58,21.8281 Q57.4063,21.5469 56.7813,21.5469 Q55.4375,21.5469 54.75,22.625 Q54.0625,23.6875 54.0625,25.7813 Q54.0625,27.875 54.75,28.9531 Q55.4375,30.0156 56.7813,30.0156 Q57.4063,30.0156 58,29.75 Q58.5938,29.4688 59.2188,28.8906 L59.2188,31.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="97.75" y="24.9951">Location</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="100" x="76.75" y="37.5791">CarSharing.provided</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="213" y1="44.9375" y2="44.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="52.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="27" y="59.1479">n: double</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="65.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="27" y="71.9526">e: double</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="78.5469"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="27" y="84.7573">description: String</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="213" y1="91.3516" y2="91.3516"/><ellipse cx="18" cy="102.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="27" y="105.562">Location(double, double)</text><ellipse cx="18" cy="115.1563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="181" x="27" y="118.3667">Location(double, double, String)</text><ellipse cx="18" cy="127.9609" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="27" y="131.1714">Location(Location)</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="14.5" y="154.0479">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[3484c68c504e46f9743e28ce3a40a72a]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Location\n<size:10>CarSharing.provided" as CarSharing.provided.Location [[Location.html]] {
+        -n: double
+        -e: double
+        -description: String
+        +Location(double, double)
+        +Location(double, double, String)
+        +Location(Location)
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
